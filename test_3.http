@@ -1,0 +1,7 @@
+PUT http://localhost:5000/api/tasks/69ff74f6ba78c1e76a8e607d
+Content-Type: application/json
+
+{
+  "status": "Completed"
+}
+
