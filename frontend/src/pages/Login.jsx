@@ -22,7 +22,7 @@ function Login() {
 
         try {
             const res = await axios.post(
-                "https://studysync-assignment3-amirulz.onrender.com",
+                "https://studysync-assignment3-amirulz.onrender.com/api/auth/login",
                 formData
             );
 
