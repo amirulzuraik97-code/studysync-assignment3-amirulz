@@ -199,3 +199,8 @@ Developed by Amirul ZuzU
 # License
 
 This project is for educational purposes.
+
+# backend deploy
+https://studysync-assignment3-amirulz.onrender.com
+
+# frontend deploy
