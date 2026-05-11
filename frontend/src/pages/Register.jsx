@@ -23,7 +23,7 @@ function Register() {
 
         try {
             await axios.post(
-                "http://localhost:5000/api/auth/register",
+                "https://studysync-assignment3-amirulz.onrender.com",
                 formData
             );
 

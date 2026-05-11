@@ -33,7 +33,7 @@ function Dashboard() {
             const token = localStorage.getItem("token");
 
             const res = await axios.get(
-                "http://localhost:5000/api/tasks",
+                "https://studysync-assignment3-amirulz.onrender.com",
                 {
                     headers: {
                         Authorization: `Bearer ${token}`,
@@ -56,7 +56,7 @@ function Dashboard() {
             const token = localStorage.getItem("token");
 
             await axios.post(
-                "http://localhost:5000/api/tasks",
+                "https://studysync-assignment3-amirulz.onrender.com",
                 {
                     title,
                     description,
@@ -93,7 +93,7 @@ function Dashboard() {
             const token = localStorage.getItem("token");
 
             await axios.delete(
-                `http://localhost:5000/api/tasks/${id}`,
+                `https://studysync-assignment3-amirulz.onrender.com/${id}`,
                 {
                     headers: {
                         Authorization: `Bearer ${token}`,
@@ -115,7 +115,7 @@ function Dashboard() {
             const token = localStorage.getItem("token");
 
             await axios.put(
-                `http://localhost:5000/api/tasks/${id}`,
+                `https://studysync-assignment3-amirulz.onrender.com/${id}`,
                 {},
                 {
                     headers: {
@@ -142,7 +142,7 @@ function Dashboard() {
             const token = localStorage.getItem("token");
 
             await axios.put(
-                `http://localhost:5000/api/tasks/edit/${id}`,
+                `https://studysync-assignment3-amirulz.onrender.com/${id}`,
                 {
                     title: editedTitle,
                     description: editedDescription,
