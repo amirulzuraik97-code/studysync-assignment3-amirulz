@@ -204,3 +204,8 @@ This project is for educational purposes.
 https://studysync-assignment3-amirulz.onrender.com
 
 # frontend deploy
+https://studysync-assignment3-amirulz.vercel.app/
+
+# video presentation
+
+
