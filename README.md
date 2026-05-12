@@ -207,5 +207,5 @@ https://studysync-assignment3-amirulz.onrender.com
 https://studysync-assignment3-amirulz.vercel.app/
 
 # video presentation
-
+https://drive.google.com/file/d/1nX0TT8qebn2T-jpfaZ_v_m3Zngb761EE/view?usp=drive_link
 
